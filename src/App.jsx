@@ -6,11 +6,17 @@ import { FaXTwitter } from "react-icons/fa6";
 import navBarImage from "./assets/navbarImage.png";
 const App = () => {
   return (
-    <div className="flex flex-col gap-20">
-      <div className="h-15 bg-slate-100 border-b-2 border-gray-200">
-        <img src={navBarImage} alt="" width={600} className="m-auto" />
+    <div>
+      <div className="xsm:h-10 sm:h-14  bg-slate-100 border-b-2 border-t-2 border-gray-200 fixed top-11 w-full">
+        <img
+          src={navBarImage}
+          alt=""
+          width={600}
+          className="m-auto px-2 py-1"
+        />
       </div>
-      <div className="flex flex-col justify-center items-center m-auto h-full px-10 gap-5">
+      <div className="h-20"></div>
+      <div className="flex flex-col items-center justify-start min-h-screen px-10 pt-10 pb-15 gap-5">
         <div className="honk-heading text-center">
           Coming up with something new
         </div>
