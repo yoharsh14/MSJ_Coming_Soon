@@ -1,0 +1,15 @@
+.ticker-header {
+  position: absolute;
+  left: -138px;
+}
+.ticker {
+  height: 61px;
+  position: relative;
+  width: 100svw;
+  overflow: hidden;
+}
+
+.ticker-footer {
+  position: absolute;
+  bottom: 0px;
+}

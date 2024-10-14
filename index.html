@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- first font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- second font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>METAVERSE STREE JOURNAL</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="ticker">
+      <div
+        id="coinmarketcap-widget-marquee"
+        coins="1,1027,825,6210,32341,1966,31526,7080,18069,16352,52,328,5426,1765,3890,10688"
+        currency="USD"
+        theme="light"
+        transparent="false"
+        show-symbol-logo="true"
+        class="ticker-header"
+      ></div>
+    </div>
+    <div id="root"></div>
+    <div class="ticker ticker-footer">
+      <gecko-coin-price-marquee-widget
+        locale="en"
+        outlined="true"
+        coin-ids="upland,the-sandbox,axie-infinity,decentraland,yield-guild-games,gala,mocaverse"
+        initial-currency="usd"
+        class="ticker-footer"
+      ></gecko-coin-price-marquee-widget>
+    </div>
+    <script src="https://widgets.coingecko.com/gecko-coin-price-marquee-widget.js"></script>
+    <script
+      type="text/javascript"
+      src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"
+    ></script>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.honk-heading {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+  font-size: xxx-large;
+}
+
+.dancing-script-text-body {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
