@@ -20,7 +20,7 @@ const App = () => {
         <div className="honk-heading text-center">
           Coming up with something new
         </div>
-        <div className="text-center dancing-script-text-body font-extrabold text-xl text-slate-500">
+        <div className="text-center font-extrabold text-xl text-slate-500">
           Sorry for the Amazing MSJ Website being down. We are working on some
           Infrastructure level changes that will allow us to be better, faster,
           leaner and more sustainable in the long term. While you wait for our
@@ -60,7 +60,7 @@ const App = () => {
           Journal.
           <br /> Yours sincerely, Tan and the MSJ Team
         </div>
-        <div className="flex justify-center gap-10 text-4xl">
+        <div className="flex justify-center gap-10 text-4xl mb-16">
           <a href=" https://www.linkedin.com/company/metaversenews">
             <div>
               <FaLinkedin />
