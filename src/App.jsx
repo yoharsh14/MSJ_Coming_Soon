@@ -16,30 +16,35 @@ const App = () => {
         />
       </div>
       <div className="h-20"></div>
-      <div className="flex flex-col items-center justify-start min-h-screen px-10 pt-10 pb-15 gap-5">
-        <div className="honk-heading text-center">
-          Coming up with something new
+      <div className="flex flex-col items-center justify-start min-h-screen px-4 pt-10 pb-15 gap-5">
+        <div className=" text-center">
+          <h1 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl font-sans">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-pink-600">
+              Coming up with something new 
+            </span>
+          </h1>
         </div>
-        <div className="text-center font-extrabold text-xl text-slate-500">
+        <div className="text-start font-extrabold text-md text-black">
           Sorry for the Amazing MSJ Website being down. We are working on some
           Infrastructure level changes that will allow us to be better, faster,
           leaner and more sustainable in the long term. While you wait for our
-          website to be back online. You can visit us here on our Socials: The
-          Metaverse Street Journal LinkedIn:
+          website to be back online.
+          <div className="h-3"></div>
+          You can visit us here on our Socials:
+          <br /> The Metaverse Street Journal LinkedIn:
           <a
             href="https://www.linkedin.com/company/metaversenews"
-            className="text-blue-400 font-black"
+            className="text-blue-400 font-extraBold"
           >
-            {" "}
             Click here
           </a>
-          <br />
-          The Metaverse Street Journal X Account:
+          <div className="h-3"></div>
+          The Metaverse Street Journal <b>X</b> Account:
           <a href="https://x.com/Metaverseeditor" className="text-blue-400">
             {" "}
             Click here
           </a>{" "}
-          <br />
+          <div className="h-3"></div>
           The Metaverse Street Journal YouTube:
           <a
             href="https://www.youtube.com/@TheMetaverseStreetJournal"
@@ -47,7 +52,7 @@ const App = () => {
           >
             Click here
           </a>
-          <br />
+          <div className="h-3"></div>
           The Metaverse Street Journal's founders LinkedIn:
           <a
             href="https://www.linkedin.com/in/tanmaya-sharma/"
@@ -55,10 +60,11 @@ const App = () => {
           >
             Click here
           </a>
-          <br />
+          <div className="h-3"></div>
           You be the Arbiter of Truth the readers of The Metaverse Street
           Journal.
-          <br /> Yours sincerely, Tan and the MSJ Team
+          <div className="h-3"></div> Yours sincerely, <br /> Tan and the MSJ
+          Team
         </div>
         <div className="flex justify-center gap-10 text-4xl mb-16">
           <a href=" https://www.linkedin.com/company/metaversenews">
