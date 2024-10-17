@@ -53,7 +53,6 @@ const App = () => {
             href="https://www.linkedin.com/in/tanmaya-sharma/"
             className="text-blue-400"
           >
-            {" "}
             Click here
           </a>
           <br />
