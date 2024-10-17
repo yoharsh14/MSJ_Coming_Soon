@@ -16,7 +16,7 @@ const App = () => {
         />
       </div>
       <div className="h-20"></div>
-      <div className="flex flex-col items-center justify-center min-h-screen px-4 pt-10 pb-15 gap-5">
+      <div className="flex flex-col items-center justify-center min-h-screen px-4 lg:px-20 md:px-10 pt-10 pb-15 gap-5">
         <div className="text-center">
           <h1 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl font-sans">
             <span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-pink-600">
@@ -24,7 +24,7 @@ const App = () => {
             </span>
           </h1>
         </div>
-        <div className="font-extrabold text-md text-black md:text-center text-start">
+        <div className="font-extrabold text-md text-black text-start md:text-center">
           Sorry for the Amazing MSJ Website being down. We are working on some
           Infrastructure level changes that will allow us to be better, faster,
           leaner and more sustainable in the long term. While you wait for our
